@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+   margin: 0px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#C0C0C0
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #ffce14;
+  background: #B266FF;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "roboto";
+  margin: 0 2rem;
+}
+header div i {
+  font-size: 2rem;
+  margin: 1rem;
+}
+header nav {
+  padding: 1rem 2rem;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+nav li a {
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+}
+nav li a:hover {
+  background: #ffce14;
+  color: black;
+}
+h1
+{
+	color: yellow;
+	font-size:70px;
+	text-align:left;
+	font-family: "roboto";
+	
+}
+h2{
+	font-size:40px;
+	color: white;
+	font-family: "roboto";
+	text-align:center;
+	
+}
+.main{
+        width: 100%;
+        margin-top: 40px;
+}
+.box{
+ width: 20%;
+ float: left;
+ padding: 7px;
+ padding-left: 10px;  
+ display: block;
+
+}
+
+img{
+ width: 100%;
+    border-radius: 4px;
+	filter:grayscale(100%);
+	transition:1s;
+
+}
+
+img:hover{
+   filter:grayscale(0);
+  transform: scale(1.5);
+  transition: .3s transform;
+ 
+
+}
